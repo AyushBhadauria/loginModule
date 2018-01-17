@@ -1,0 +1,27 @@
+{
+  "name": "loginmodule",
+  "version": "1.0.0",
+  "description": "Social Media Login Module ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.16.2",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-jwt": "*"
+  },
+  "author": "Ayush Bhadauria",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^1.4.9"
+  }
+}

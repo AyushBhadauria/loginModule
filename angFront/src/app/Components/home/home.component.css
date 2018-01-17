@@ -1,0 +1,24 @@
+.log> div {
+    background: rgba(236, 241, 152, 0.918);
+    padding:1em;
+    }
+    .log > div:nth-child(odd){
+    background: rgb(109, 188, 212);
+    padding:1em;
+    border:1px;
+    }
+    .log{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap:1em;
+        grid-auto-rows:minmax(350px, auto);
+        text-align: center;
+    }
+    a{
+        color: white;
+        font-size: 80px;
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgb(223, 91, 98)
+    }
